@@ -1,0 +1,6 @@
+.idea
+venv
+__pycache__/
+nbs_sk/articles.db
+nbs_sk/nbs_sk/__pycache__/
+nbs_sk/nbs_sk/spiders/__pycache__/
