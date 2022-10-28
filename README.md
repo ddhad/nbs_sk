@@ -1,6 +1,6 @@
 # https://nbs.sk/en/press/news-overview/ spider and API
 
-Scrapy crawler scraping data from nbs.sk, and FastAPI endpoints to update, delete and filter items from Sqlite3 database. 
+Scrapy crawler scraping data from nbs.sk, and FastAPI endpoints to update, delete and filter items from Sqlite database. 
 <pre>
 /articles/             Lists all items from database  
 /articles/?date=       Returns items with matching date  
