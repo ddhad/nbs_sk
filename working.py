@@ -72,7 +72,7 @@ def delete_item(article_id: int):
     return {"Request sent": 1}
 
 
-@app.post("/articles/{article_id}")
+@app.put("/articles/{article_id}")
 def update_item(article_id: int, item: Item = None):
     con = sqlite3.connect("nbs_sk/articles.db", check_same_thread=False)
     cur = con.cursor()
